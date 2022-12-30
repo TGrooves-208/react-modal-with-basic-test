@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
-import Modal from '../src/components/Modal'
 
 test('renders text on top of button without crashing', () => {
   render(<App />);
